@@ -2,6 +2,8 @@
 SEED RSA Encryption and Signature Lab
 
 ![Static Badge](https://img.shields.io/badge/Language-C-blue)
+![Static Badge](https://img.shields.io/badge/OpenSSL-8A2BE2)
+
 
 ### Compile:
 ```
