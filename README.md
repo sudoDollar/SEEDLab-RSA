@@ -3,6 +3,11 @@ SEED RSA Encryption and Signature Lab
 
 ![Static Badge](https://img.shields.io/badge/Language-C-blue)
 
+### Compile:
+```
+gcc <filename.c> -lcrypto -lm
+```
+
 Task 1: Deriving the Private Key <br>
 Task 2: Encrypting a Message <br>
 Task 3: Decrypting a Message <br>
