@@ -1,7 +1,7 @@
 ### Website: www.microsoft.com:443
 
 ***
-root@ubuntu-seed-lab-dollar:~/lab3# openssl s_client -connect www.microsoft.com:443 -showcerts
+root@ubuntu-seed-lab-dollar:~/lab3# openssl s_client -connect www.microsoft.com:443 -showcerts <br>
 CONNECTED(00000003)
 depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G2
 verify return:1
