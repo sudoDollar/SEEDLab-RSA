@@ -1,5 +1,4 @@
-Website: www.microsoft.com:443 <br>
-
+### Website: www.microsoft.com:443
 
 root@ubuntu-seed-lab-dollar:~/lab3# openssl s_client -connect www.microsoft.com:443 -showcerts
 CONNECTED(00000003)
@@ -14,6 +13,7 @@ Certificate chain
 ---
  0 s:C = US, ST = WA, L = Redmond, O = Microsoft Corporation, CN = www.microsoft.com
    i:C = US, O = Microsoft Corporation, CN = Microsoft Azure RSA TLS Issuing CA 07
+  ```
     -----BEGIN CERTIFICATE-----
     MIII5TCCBs2gAwIBAgITMwAD4s0QZq2NuBwGCAAAAAPizTANBgkqhkiG9w0BAQwF
     ADBdMQswCQYDVQQGEwJVUzEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9u
@@ -64,9 +64,11 @@ Certificate chain
     Unyb2Oj6CDA9YFEcjRuaZBDtSKJ6AYOWFJO7CIHsjAZ0rBqfyfNdBd5DG4+ZJkD8
     50WeBZCdbW0GmufXnB4Oa1oIOywDyOG6eQ==
     -----END CERTIFICATE-----
+  ```
 ---
  1 s:C = US, O = Microsoft Corporation, CN = Microsoft Azure RSA TLS Issuing CA 07
    i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G2
+  ```
     -----BEGIN CERTIFICATE-----
     MIIFrDCCBJSgAwIBAgIQCkOpUJsBNS+JlXnscgi6UDANBgkqhkiG9w0BAQwFADBh
     MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
@@ -100,6 +102,7 @@ Certificate chain
     D1x42VSusQuRGtuSxLhzBNBeJtyD//2u7wY2uLYpgK0o3X0iIJmwpt7Ovp6Bs4tI
     E/peia+Qcdk9Qsr+1VgCGA==
     -----END CERTIFICATE-----
+  ```
 ---
 Server certificate
 subject=C = US, ST = WA, L = Redmond, O = Microsoft Corporation, CN = www.microsoft.com
